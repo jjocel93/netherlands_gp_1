@@ -51,14 +51,14 @@ body {
   font-family: var(--system-ui);
 }
 
-.headercontainer {
+.header-container {
   display: flex;
   align-items: center;
   padding: 20px 5%;
   border-bottom: 1px solid black;
 }
 
-.nav_container {
+.nav-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -66,42 +66,45 @@ body {
   margin-left: 20px;
 }
 
-.nav_links {
+.nav-links {
   display: flex;
+  justify-content: space-between;
 }
 
-.nav_links li {
+.nav-links li {
   list-style: none;
   padding: 0 20px;
 }
 
-.nav_links a {
+.nav-links a {
   text-decoration: none;
   color: black;
-  margin: 0 16px;
-  transition: all 0.3s ease;
+  transition: color 0.3s, transform 0.3s;
+  display: inline-block;
+  min-width: 60px;
 }
 
-.nav_links a:hover {
+.nav-links a:hover {
   color: rgb(41, 41, 234);
   text-decoration: underline;
+  font-weight: bold;
 }
 
 .logo {
   cursor: pointer;
 }
 
-.nav_buttons button {
+.nav-buttons button {
   background-color: #fff;
   color: black;
   border: 1px solid #000;
   padding: 10px;
   cursor: pointer;
   margin: 0 10px;
-  transition: all 0.3s ease;
+  transition: color 0.3s, background-color 0.3s;
 }
 
-.nav_buttons button:hover {
+.nav-buttons button:hover {
   color: #fff;
   background-color: #000;
 }
