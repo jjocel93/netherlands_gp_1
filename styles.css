@@ -53,10 +53,16 @@ body {
 
 .headercontainer {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 20px 5%;
   border-bottom: 2px solid black;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 
 .nav_links {
@@ -72,6 +78,11 @@ body {
   text-decoration: none;
   color: black;
   margin: 0 16px;
+  transition: text-shadow 0.3s;
+}
+
+.nav_links li a:hover {
+  text-shadow: 0 0 0.65px black, 0 0 0.65px black;
 }
 
 .logo {
