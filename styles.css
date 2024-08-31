@@ -55,7 +55,7 @@ body {
   display: flex;
   align-items: center;
   padding: 20px 5%;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 
 .nav_container {
@@ -87,6 +87,7 @@ body {
 
 .nav_links li a:hover {
   color: rgb(41, 41, 234);
+  text-decoration: underline;
 }
 
 .logo {
