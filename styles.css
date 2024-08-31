@@ -87,6 +87,7 @@ body {
 .nav-links a:hover {
   color: rgb(41, 41, 234);
   text-decoration: underline;
+  text-underline-offset: 3px;
   font-weight: bold;
 }
 
