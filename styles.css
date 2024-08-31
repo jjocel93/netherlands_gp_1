@@ -63,6 +63,7 @@ body {
   justify-content: space-between;
   width: 100%;
   align-items: center;
+  margin-left: 20px;
 }
 
 .nav_links {
@@ -78,11 +79,14 @@ body {
   text-decoration: none;
   color: black;
   margin: 0 16px;
-  transition: text-shadow 0.3s;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
 }
 
 .nav_links li a:hover {
-  text-shadow: 0 0 0.65px black, 0 0 0.65px black;
+  color: rgb(41, 41, 234);
 }
 
 .logo {
@@ -94,4 +98,13 @@ body {
   padding: 10px;
   border: 1px solid black;
   cursor: pointer;
+}
+
+.nav_buttons button {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_buttons button:hover {
+  color: white;
+  background-color: rgb(41, 41, 234);
 }
